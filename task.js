@@ -130,4 +130,37 @@ const orang = {
 // }
 
 
+/**
+ * Mencari Nilai Tertinggi dan tampilkan nama dan nilainya
+ * 
+ * Gunakan looping untuk mencarinya. Lalu resultnya menjadi string dengan pernyataan
+ */
+
+const mahasiswa = [
+    { nama: "Budi", nilai: 85 },
+    { nama: "Ana", nilai: 90 },
+    { nama: "Dono", nilai: 78 },
+    { nama: "Dewi", nilai: 92 }
+];
+
+// OUPUT: Students yang mendapatkan nilai terbesar adalah ... dengan nilai ...
   
+
+/**
+ * Konversi Objek ke Array
+ * 
+ * Rubah objek menjadi array dengan metode looping yang dimana akan dinamis.
+ */
+
+const kota = {
+    Jakarta: 10,
+    Bandung: 5,
+    Surabaya: 7,
+    Medan: 4
+};
+
+// OUTPUT:
+// [
+//   { namaKota: "Jakarta", nilai: 10 },
+//   ...
+// ]
